@@ -35,29 +35,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var sum = x + y;
-  return sum;
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  var rest = x - y;
-  return rest;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multi = x * y;
-  return multi;
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var divi = x / y ;
-  return divi;
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -103,8 +99,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var restodiv = x % y;
-  return restodiv;
+  return x % y;
 }
 
 function esPar(num) {
@@ -131,55 +126,33 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadra = num * num ;
-  return cuadra;
+  
+  return Math.pow(num,2);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cub = num * num * num;
-  return cub;
+  return Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var contador = 1;
-  for(var i = 0 ; i < exponent ; i++){
-    contador = contador * num;
-
-  }
-  return contador;
+  return Math.pow(num,exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
-  
-  var diferencia = num % 1;
-  if ( diferencia  !=0 && diferencia < 0.5){
-    var redo = num - diferencia;
-    return redo;
-  }else if (diferencia  !=0 && diferencia >= 0.5){
-    var falta = 1 - diferencia;
-    var redo = num + falta;
-    return redo;
-  }
-  return num;
+  return Math.round(num);
 
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-  var decimas = num % 1;
-  if(decimas != 0){
-    var faltante = 1 - decimas;
-    var redondo = num + faltante;
-    return redondo;
-  }
-  return num;
+  return Math.ceil(num);
 }
 
 function agregarSimboloExclamacion(str) {
@@ -209,8 +182,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-  var areacua = alto * ancho ;
-  return areacua;
+  return alto * ancho ;
 }
 
 

@@ -1,0 +1,30 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+
+Variables 
+Son asignaciones que podemos declarar ,  digamos creamos una variable llamada saludo , la cual el valor que guarda es una string "hola"; , pero luego si necesitamos modificar lo que esa variable representa  podemos hacerlo asignandole un nuevo valor (contenido).
+ EJ: var saludo = "hola";   saludo = "como estas?";
+
+ String
+ son cadenas de caracteres como palabras o codigos. 
+
+ Funciones
+ las funciones  son una serie determinada de instrucciones que se realizan previamente , programadas , algunas funciones toman argumentos  para poder ejecutarse, los cuales pueden numeros , string , arreglos etc.   y return , es una instruccion que le dice basicamente al programa que debe devolverno algo , ya sea una cadena,un valor , un booleano 
+  EJ
+ MitadDe(num) {
+ return num / 2;
+ }
+
+ if
+ Se utiliza para evaluar una si se cumple una condicion , significa SI . 
+ EJ:   if (5 > 3){...}   esto se lee SI 5 es mayor que 3  entonces se ejecutara el bloque de codigo que contenga.
+
+ Valores booleanos (true, false)
+ Los valores booleanos son solamente dos true ( verdadero) o false (falso), digamos en una condicional comparamos 2 valores ,  if (X > Y ){...}  este if solo se ejecutara en caso de ser true (verdadero) , podemos darles valores para que sea mas facil interpretar ,  if (10 > 4 ){...} esto lo que hace es analizar si 10 es mayor a 4 ?  y como 10 es un valor mayor , respondera que es verdadero , en caso contrario devuelve  falso. 
+   

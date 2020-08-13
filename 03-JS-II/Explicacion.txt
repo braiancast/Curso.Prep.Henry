@@ -1,0 +1,32 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+for
+&&, ||, !
+
+
+
+
+for :
+
+se lo utiliza para crear ciclos para hacer codigos cortos en tareas que se realizaran N veces EJ:
+
+si necesito imprimir por pantalla los numeros del 1 al 500, puedo usar un ciclo for para realizar esa tarea
+
+for(var i = 0; i < 500 ; i++){
+	console.log(i)
+}
+
+podemos imaginar que for es una rueda y que cada iteracion es una vuelta, donde entra y realiza las operaciones que contiene , luego sale  para volver a ingresar nuevamente, asi hasta que ya no se cumpla la condicional  que le fue asignada.
+
+
+&&  :
+se lee Y (and)  y se lo usa para asignar mas condiciones que algo debe cumplir , EJ:  if (X < 10 && X > 5){...}
+en este caso se leeria  ,   Si X es menor que 10 y mayor que 5 , en ese caso se cumple la condicional , ambas deben ser verdaderas (True) , asi que X tendria que ser un numero entre el 6 y 9 incluyendolos.
+
+||  :
+Se lee or ( O ) y tambien se lo utiliza para poner mas condiciones pero con solo cumplirse una parte de la condicional es suficiente, J:  if (X < 10 && X > 5){...}
+en este caso se lee , Si X es menor que 10 o mayor que 5 ,  en esta situciacion cualquier numero funcionaria , ya que cualquier numero menor que 10 devolveria true o cualquier numero  que sea mayor que 5.
+
+
+!
+
+Es la negacion , podemos usar para decir  si tal resultado es diferente.  EJ  if(10 - N != 5){...}  en este caso cualquier valor N que le restemos  al 10 ,  y su resultado sea diferente a 5 , nos devolvera true.

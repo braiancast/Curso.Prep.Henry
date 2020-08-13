@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Hola Mundo";
+const nuevaString = 'Hola Mundo';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 333;
@@ -159,7 +159,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var newcad = str + "!";
+  var newcad = str + '!';
   return newcad;
 }
 
@@ -167,7 +167,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var nomb = nombre + " " + apellido;
+  var nomb = nombre + ' ' + apellido;
   return nomb;
 }
 
@@ -175,7 +175,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = "Hola " + nombre +"!";
+  var saludo = 'Hola ' + nombre +'!';
   return saludo;
 }
 

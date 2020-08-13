@@ -1,0 +1,27 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+
+
+	Objetos
+	Son un grupo de variables que se definen con la intencion de poder representar algo de la vida real, supongamos queremos representar un gato, entonces creamos el objeto gato y le asignamos sus propiedades(caracteristicas) EJ: edad , peso , color 
+
+
+	propiedades
+	Son basicamente las caracteristicas que posee ese objeto.
+
+	Metodos
+	son las funciones osea son bloques de codigo que se ejecutan al ser invocadas.
+
+	for in 
+	realiza una iteracion por cada elemento pasado como parametro.
+
+
+	La notacion de puntos vs notacion de corchetes
+	sirven para lo mismo solo , solo que es mas recomendable utilizar la notacion con corchetes aunque el codigo no se vea tan limpio, pero utilizando los corchetes podemos acceder a propiedades que contienen un espacio o un caracter no permitido.

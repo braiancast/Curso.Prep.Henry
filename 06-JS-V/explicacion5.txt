@@ -1,0 +1,16 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+
+
+constructor
+se puede pensar como una pantilla o molde para crear objetos de la misma clase , podemos tener varios televisores todos distintos entre ellos , pero todos son de la clase televisores y tienen ciertas caracteristicas aunque difieren el valor entre ellos. 
+EJ: todos son de la clase televisor y todos poseen caracteristicas como  pulgadas , resolucion , marca , color , peso
+
+entonces en vez de estar creando funciones por cada televisor , podemos crear 1 funcion que seria el constructor y apartir de ahi crear muchos objetos de la clase televisor.
+
+
+prototype
+es el prototipo de un objeto , basicamente todas las funciones que necesitemos crear van a ir dentro del prototype.

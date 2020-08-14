@@ -1,0 +1,7 @@
+ En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Funciones Callback
+
+las funciones callback son las que se les puede asignar el resultado devuelto por otra funcion.
+EJ: puedo tener una funcion que saque porcentajes ,  y otra funcion que se llame sueldo plus , y dentro de esta ultima invocamos a la funcion porcentajes, para poder obtener el monto final del sueldo.
+sueldoplus = sueldo + porcentajes(sueldo);
